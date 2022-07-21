@@ -1,0 +1,45 @@
+{
+  "name": "node-stl-thumbnailer-preview",
+  "version": "1.0.1",
+  "description": "Nodejs thumbnailing service for 3D STL files. Creates beautifully rendered png and jpeg output server-side with no GPU from ASCII and Binary STL's.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/instructables/node-stl-thumbnailer.git"
+  },
+  "keywords": [
+    "stl",
+    "three",
+    "threejs",
+    "thumbnail",
+    "canvas",
+    "render",
+    "node",
+    "nodejs",
+    "3d",
+    "3d",
+    "model",
+    "stereolithography",
+    "server-side",
+    "gpu",
+    "cpu"
+  ],
+  "author": "instructaPhil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/instructables/node-stl-thumbnailer/issues"
+  },
+  "homepage": "https://github.com/instructables/node-stl-thumbnailer#readme",
+  "dependencies": {
+    "canvas": "^1.6.13",
+    "express": "^4.18.1",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "node-stl-thumbnailer": "^1.0.1",
+    "request": "^2.88.2",
+    "three": "^0.84.0"
+  }
+}
